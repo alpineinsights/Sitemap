@@ -6,4 +6,4 @@
 [deploy]
   start = "streamlit run sitemap_streamlit.py"
 
-envFile = ".env"
+# Use Railway environment variables instead of .env file
