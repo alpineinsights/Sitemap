@@ -3,9 +3,6 @@ import boto3
 import streamlit as st
 from botocore.exceptions import NoCredentialsError
 import xml.etree.ElementTree as ET
-from dotenv import load_dotenv
-
-load_dotenv()
 
 def get_s3_urls(bucket_name, region, prefix=''):
     try:
@@ -67,3 +64,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
