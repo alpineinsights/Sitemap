@@ -1,4 +1,3 @@
-# railway.toml
 # Configuration for deploying to Railway
 [build]
   # The command to install dependencies
