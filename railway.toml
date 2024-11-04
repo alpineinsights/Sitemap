@@ -1,0 +1,10 @@
+# railway.toml
+# Configuration for deploying to Railway
+[build]
+  # The command to install dependencies
+  install = "pip install -r requirements.txt"
+
+[deploy]
+  start = "streamlit run sitemap_streamlit.py"
+
+envFile = ".env"
