@@ -4,6 +4,6 @@
   install = "pip install -r requirements.txt"
 
 [deploy]
-  start = "streamlit run sitemap_streamlit.py"
+  start = "streamlit run sitemap_streamlit.py --server.port=$PORT"
 
 # Use Railway environment variables instead of .env file
